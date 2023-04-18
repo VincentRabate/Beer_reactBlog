@@ -5,7 +5,8 @@ const BlogItem = (
     {blog:{
         id,
         name,
-},
+}
+,
 }) => (
     <div>
     <h1>{name}</h1>
