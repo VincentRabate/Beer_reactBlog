@@ -16,7 +16,6 @@ const Home = () => {
         <Test/>
         <BlogList blogs={blogs} />
 
-         <p>test45</p>
         </div>
     );
 };
