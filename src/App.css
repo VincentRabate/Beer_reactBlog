@@ -4,16 +4,14 @@
   font-family: "American Brewery Rough Demo";
   src: url("../assets/fonts/AmericanBreweryRoughDemo-B1w8.ttf") format("truetype");
 }
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #F7F1E5;
+}
 
 * {
   margin: 0;
   padding: 0;
-  background-color: #F7F1E5;
 }
 
-.container {
-  max-width: 1140px;
-  width: 95%;
-  margin: 0 auto;
-  padding: 1rem 0;
-}

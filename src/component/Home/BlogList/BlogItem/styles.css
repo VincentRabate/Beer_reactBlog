@@ -1,26 +1,38 @@
-.blogItem-cover {
-    height: 150px;
-    object-fit: cover;
-}
-
-h2{
-    font-family: "American Brewery Rough Demo";
-}
-
-p{
-    font-family: "raleway";
-    font-size: 14px;
-}
-
-.BlogItem-div {
+.BlogItem {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 12px;
-    gap: 32px;
-    border: 2px solid #CBCAC8
+    height: 300px;
+    padding: 24px 0 24px 0;
+    /* border: 2px solid #CBCAC8; */
+    border-radius: 8px;
+    box-shadow: 2px 2px  4px rgba(50, 49, 47, 0.25);
+    transition: transform 0.2s ease-in-out;
 }
 
+.BlogItem:hover {
+    transform: scale(1.05);
+}
+
+.blogItem-img {
+    height: 150px;
+    padding-top: 32px;
+    object-fit: cover;
+}
+
+.blogItem-h2{
+    font-family: "American Brewery Rough Demo";
+    font-size: 24px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.blogItem-p{
+    font-family: "raleway";
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px;
+}
 
 
 .BlogItem-link {

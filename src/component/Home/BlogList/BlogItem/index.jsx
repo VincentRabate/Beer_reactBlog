@@ -4,10 +4,10 @@ import "./styles.css"
 
 const BlogItem = ({ blog: { id, name, image_url, abv, volume } }) => (
   <Link to={`/blog/${id}`} className='BlogItem-link'>
-  <div className='BlogItem-div'>
-    <img className='blogItem-cover' src={image_url} />
-    <h2>{name}</h2>
-    <p>{abv} | {volume.value} {volume.unit}</p>
+  <div className='BlogItem'>
+    <img className='blogItem-img' src={image_url} />
+    <h2 className='blogItem-h2'>{name}</h2>
+    <p className='blogItem-p'>{abv} | {volume.value} {volume.unit}</p>
   </div>
 </Link>
 );

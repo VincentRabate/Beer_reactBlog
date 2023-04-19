@@ -1,0 +1,97 @@
+p {
+    font-size: 24px;
+}
+
+.blog-name {
+    font-family: "American Brewery Rough Demo";
+    color: #32312F;
+    font-size: 40px;
+}
+
+.blog-infos  {
+    font-family: "raleway";
+    font-size: 24px;
+    font-weight: 300;
+    color: #32312F;
+}
+
+.Goback {
+    position: relative;
+    font-family: "raleway";
+    font-size: 24px;
+    font-weight: 300;
+    color: #32312F;;
+    top: -32px;}
+
+.blog-goBack {
+    text-decoration: none;
+}
+
+.blog-img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.blog-container {
+    max-width: 1140px;
+    width: 95%;
+    margin: 50px auto;
+    display: flex;
+    padding: 44px 0 44px 0;
+    color: #32312F;
+    display: flex;
+}
+
+.blog-container-img {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+}
+
+.blog-img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.blog-description {
+    padding: 32px 0 32px 0;
+}
+
+.brewers-tips {
+    padding: 32px 0 20px 0;
+    font-style: italic;
+}
+
+.brewers-tips strong {
+    font-style: normal;
+    font-weight: 300;
+}
+
+.ingredients {
+    display: flex;
+    padding: 20px 0 20px 0;
+
+}
+
+.ingredients li {
+    list-style-type: none;
+}
+
+.hops {
+    margin-left: 50px;
+}
+
+@media (max-width: 700px) {
+    .blog-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .blog-img {
+        position: relative;
+        height: 100%;
+        width: 100px;
+        left: 37vw;
+    }
+
+}
