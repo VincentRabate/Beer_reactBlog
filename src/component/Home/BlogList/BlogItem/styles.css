@@ -1,0 +1,29 @@
+.blogItem-cover {
+    height: 150px;
+    object-fit: cover;
+}
+
+h2{
+    font-family: "American Brewery Rough Demo";
+}
+
+p{
+    font-family: "raleway";
+    font-size: 14px;
+}
+
+.BlogItem-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    gap: 32px;
+    border: 2px solid #CBCAC8
+}
+
+
+
+.BlogItem-link {
+    text-decoration: none;
+    color: #32312F;
+}

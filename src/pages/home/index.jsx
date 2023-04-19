@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Test from "../../component/test";
+import Header from "../../component/common/Header";
 import BlogList from '../../component/Home/BlogList';
 
 
@@ -13,7 +13,7 @@ const Home = () => {
   }, []);
     return (
         <div>
-        <Test/>
+        <Header/>
         <BlogList blogs={blogs} />
 
         </div>
